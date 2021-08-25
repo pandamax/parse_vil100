@@ -1,10 +1,12 @@
 # datasets structure:
+'''
 VIL-100
     |----Annotations
     |----data
     |----JPEGImages
     |----Json
     |----train.json
+'''
 
 
 # parse_vil100
