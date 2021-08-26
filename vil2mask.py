@@ -70,7 +70,7 @@ if __name__ == '__main__':
   # choose datasets category from:'train','test'
   datasets_category = 'train'  
   # datasets dir
-  dataset_dir = '/mnt/h/lane_datasets/VIL100'
+  dataset_dir = '/mnt/h/lane_datasets/VIL-100'
 
   # save label dir(mask)
   save_mask_dir = dataset_dir + '/mask'
