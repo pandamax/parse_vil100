@@ -108,7 +108,7 @@ if __name__ == '__main__':
     # choose vis_mode between 'points' and 'curves'
     vis_mod = 'curves'  
     # datasets dir
-    dataset_dir = '/mnt/h/lane_datasets/VIL100'
+    dataset_dir = '/mnt/h/lane_datasets/VIL-100'
     # save label dir(mask)
     save_mask_dir = '{}/{}_{}'.format(dataset_dir, "vis_datasets", vis_mod)
     if not os.path.exists(save_mask_dir):
