@@ -105,6 +105,8 @@ def get_curves(mask, label):
     return mask 
 
 if __name__ == '__main__':   
+    # choose datasets category from:'train','test'
+    datasets_category = 'train'
     # choose vis_mode between 'points' and 'curves'
     vis_mod = 'curves'  
     # datasets dir
@@ -115,7 +117,7 @@ if __name__ == '__main__':
         os.makedirs(save_mask_dir)
         
     # read file from txt
-    txt_file = dataset_dir  + '/data/train.txt'
+    txt_file = dataset_dir  + '/data/{}.txt'.format(datasets_category)
     file_list = open(txt_file)
     for file in file_list:
         file = file.strip()
