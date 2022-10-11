@@ -5,7 +5,6 @@ VIL-100
     |----data
     |----JPEGImages
     |----Json
-    |----train.json
 ```
 
 
